@@ -1,3 +1,55 @@
-h1{
-    color: red;
+body {
+background-color: #fff0c9;
+font-family: 'San Francisco', Helvetica, Arial, san-serif;
+margin: 50px;
 }
+
+header {
+    text-align: center;
+    font-size: x-large;
+}
+
+h2 {
+    text-align: justify, left;
+    margin: 2mm;
+}
+
+#fotocv {
+    text-align: center;
+}
+
+img {
+    max-width: 300px;
+    border: rgb(104, 104, 104);
+    border-collapse: initial;
+    box-shadow: 0 0 10px gray;
+}
+
+.secciones {
+    border: 1px solid #000000;
+
+}
+
+p {
+    font-size: medium;
+    text-align: justify, left;
+    margin: 2mm;
+}
+
+li {font-size: medium;
+    text-align: justify, left;
+    margin: 2mm;
+    font-style: italic;
+}
+
+.form {
+    text-align: justify, left;
+    margin: 5%;
+    border: 1px solid #000000;
+    box-shadow: 0 0 5px gray;
+    background-color: antiquewhite;
+
+
+}
+
+
