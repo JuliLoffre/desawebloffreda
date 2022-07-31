@@ -1,5 +1,5 @@
 body {
-background-color: #fff0c9;
+background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
 font-family: 'San Francisco', Helvetica, Arial, san-serif;
 margin: 50px;
 }
@@ -11,7 +11,6 @@ header {
 
 h2 {
     text-align: justify, left;
-    margin: 2mm;
 }
 
 #fotocv {
@@ -19,22 +18,28 @@ h2 {
 }
 
 img {
-    max-width: 300px;
+    max-width: 250px;
     border: rgb(104, 104, 104);
     border-collapse: initial;
-    box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 50px black;
+    border-radius: 25px;
+    margin: 0 0 50px 0 ;
+
 }
 
 .secciones {
     border: 1px solid #000000;
-    border-radius: 5px;
+    border-radius: 0  20px 20px 20px;
+    padding: 20px;
+    margin: 10px;
+    background: linear-gradient(to right, #d3cce3, #e9e4f0);
+    box-shadow: 0 0 5px black;
 
 }
 
 p {
     font-size: medium;
     text-align: justify, left;
-    margin: 2mm;
 }
 
 li {font-size: medium;
@@ -45,12 +50,12 @@ li {font-size: medium;
 
 .form {
     text-align: justify, left;
-    margin: 5%;
+    padding: 20px;
+    margin: 10px 1000px 500px 10px;
     border: 1px solid #000000;
-    box-shadow: 0 0 5px gray;
-    background-color: antiquewhite;
-    border-radius: 5px;
-
+    border-radius: 0  20px 20px 20px;
+    box-shadow: 0 0 5px black;
+    background: linear-gradient(to right, #d3cce3, #e9e4f0);
 
 }
 
