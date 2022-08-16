@@ -1,10 +1,10 @@
 .contenedor {
     background-color: grey;
     display: flex;
-    flex-direction: column;    
+    flex-direction: row-reverse;    
     height: 500px;
     width: 500px;
-    align-items: flex-end;
+    align-items: center;
 	justify-content: space-evenly;
     flex-wrap: wrap;
 
