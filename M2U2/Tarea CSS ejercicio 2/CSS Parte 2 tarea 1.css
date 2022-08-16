@@ -1,0 +1,23 @@
+.contenedor {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;    
+    height: 500px;
+    width: 500px;
+    align-items: flex-end;
+	justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+}
+
+.item {
+	background-color: #ccc;
+	font-size: 30px;
+	width: 33%;
+	height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
