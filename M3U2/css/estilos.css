@@ -1,0 +1,159 @@
+/* Reglas comunes para todos */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: #5d0c1d;
+    padding: 16px 0;
+}
+
+header h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #844744;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #cab18a;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 20px;
+}
+
+nav ul li a.activo {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #5d0c1d;
+    font-weight: 400;
+}
+
+/* fin Reglas comunes para todos */
+
+/* inicio home */
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.experiencias {
+    width: 25%;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bienvenidos p {
+    font-size: 18px;
+}
+
+.experiencia {
+    background-color: #ccc;
+    padding: 16px;
+}
+
+.experiencia .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+
+.experiencia .autor {
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+}
+
+/* fin home */
+
+/* inicio Nuevas Tendencias */
+
+.historia {
+    font-size: 18px;
+}
+
+.tendencia {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 24%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.tendencias {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tendencia img {
+    border-radius: 1%;
+    max-width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.tendencia h5
+
+.tendencia h6 {
+    margin: 0;
+    font-weight: normal;
+    color: #5d0c1d;
+}
+
+.tendencia p {
+    color: #666;
+    font-size: 10px;
+}
+
+/* fin Nuevas Tendencias */
